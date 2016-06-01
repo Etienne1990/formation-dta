@@ -42,13 +42,13 @@
     <profile>
       <id>dev</id>
       <properties>
-        <dao.impl>dao-memoire-config.xml</dao.impl>
+        <dao.impl>Memoire</dao.impl>
       </properties>
     </profile>
     <profile>
       <id>prod</id>
       <properties>
-        <dao.impl>dao-rest-config.xml</dao.impl>
+        <dao.impl>Memoire</dao.impl>
       </properties>
     </profile>
   </profiles>
